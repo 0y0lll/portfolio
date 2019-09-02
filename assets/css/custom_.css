@@ -1,0 +1,42 @@
+/* ===================== */
+/* 2018/08/31            */
+/* ===================== */
+
+.masthead h1 {
+    color: rgba(255,255,255,.4);
+}
+.btn-primary {
+    background-color: #5a4098;
+}
+.btn-primary:active {
+    background-color: #6e52af!important;
+}
+.btn-primary:hover {
+    background-color: #422f71;
+}
+.text-primary {
+    color: #5a4098 !important;
+}
+.contact-section .card {
+    border-bottom: .25rem solid #5a4098;
+}
+.signup-section {
+    background-position: bottom;
+}
+
+@media (min-width: 992px) {
+    #mainNav.navbar-shrink .nav-link:hover {
+        color: #5a4098;
+    }
+    #mainNav.navbar-shrink .nav-link.active {
+        color: #5a4098;
+        border-bottom: .25rem solid #5a4098;
+    }
+    .projects-section .featured-text {
+        border-left: .5rem solid #5a4098;
+    }
+    .projects-section .project-text hr,
+    .contact-section .card hr {
+        border-color: #5a4098;
+    }
+}
